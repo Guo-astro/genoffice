@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client'
-import { htmlLang, type Lang } from '@genoffice/i18n'
+import { htmlDir, htmlLang, type Lang } from '@genoffice/i18n'
 import App from './App'
 import { LocaleProvider } from './i18n/locale'
 import type { DocTheme, UiTheme } from '../shared/ipc'
@@ -36,6 +36,7 @@ void (async () => {
     window.markdownApi.getDocumentTheme?.().catch(() => 'follow' as const),
   ])
   document.documentElement.lang = htmlLang(lang as Lang)
+  document.documentElement.dir = htmlDir(lang)
   applyTheme(theme)
   applyDocumentTheme(docTheme ?? 'follow')
   window.markdownApi.onThemeChanged(applyTheme)

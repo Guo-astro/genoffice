@@ -2402,7 +2402,10 @@ th.cell-rev-del {
   background: var(--canvas);
 }
 
+/* the document stays ltr under an RTL UI — the chrome mirrors, the content does not */
+
 .editor-scroll {
+  direction: ltr;
   flex: 1;
   overflow-y: auto;
   /* classic (non-overlay) scrollbars change clientWidth as they come and go,
