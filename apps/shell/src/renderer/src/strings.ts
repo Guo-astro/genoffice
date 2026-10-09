@@ -7,6 +7,7 @@ export const strings = {
     // Sidebar navigation
     navRecent: '最近',
     navStarred: '收藏',
+    navUserGuide: '使用手册',
     navCloud: 'Genspark Projects',
     cloudSubtitle: '在网页端用 Genspark AI 创建的项目。编辑在浏览器中继续——点击任意项目即可打开。',
     cloudSearchPlaceholder: '搜索 {n} 个项目…',
@@ -396,6 +397,13 @@ export const strings = {
     onbBody3: '无授权费用，无广告，无水印。',
     onbNote3: 'AI 功能可能消耗 Genspark 积分。',
     onbBack: '上一步',
+    helpSearchPlaceholder: '搜索手册…（按 / 聚焦）',
+    helpSearchLabel: '搜索手册',
+    helpContentsLabel: '手册目录',
+    helpOnThisPage: '本页目录',
+    helpTopicMissing: '本主题的内容尚未编写。',
+    helpHitCountOne: '{n} 个主题',
+    helpHitCount: '{n} 个主题',
   },
   en: {
     addFolderRoot: 'Add folder…',
@@ -403,6 +411,7 @@ export const strings = {
     rootUnavailable: 'Not available',
     navRecent: 'Recent',
     navStarred: 'Starred',
+    navUserGuide: 'User Guide',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Projects created on the web with Genspark AI. Editing continues in your browser — click any project to open it.',
@@ -802,6 +811,13 @@ export const strings = {
     onbBody3: 'No license fees. No ads. No watermarks.',
     onbNote3: 'AI features may consume Genspark credits.',
     onbBack: 'Back',
+    helpSearchPlaceholder: 'Search the manual… (press /)',
+    helpSearchLabel: 'Search the manual',
+    helpContentsLabel: 'Manual contents',
+    helpOnThisPage: 'On this page',
+    helpTopicMissing: 'This topic has not been written yet.',
+    helpHitCountOne: '{n} topic',
+    helpHitCount: '{n} topics',
   },
   vi: {
     addFolderRoot: 'Thêm thư mục…',
@@ -809,6 +825,7 @@ export const strings = {
     rootUnavailable: 'Không khả dụng',
     navRecent: 'Gần đây',
     navStarred: 'Đã gắn sao',
+    navUserGuide: 'Hướng dẫn sử dụng',
     navCloud: 'Dự án Genspark',
     cloudSubtitle:
       'Các dự án được tạo trên web với Genspark AI. Tiếp tục chỉnh sửa trên trình duyệt của bạn — nhấp vào bất kỳ dự án nào để mở.',
@@ -1210,6 +1227,13 @@ export const strings = {
     onbBody3: 'Không phí bản quyền. Không quảng cáo. Không hình mờ.',
     onbNote3: 'Các tính năng AI có thể tiêu tốn credit Genspark.',
     onbBack: 'Quay lại',
+    helpSearchPlaceholder: 'Tìm kiếm trong sổ tay… (nhấn /)',
+    helpSearchLabel: 'Tìm kiếm trong sổ tay',
+    helpContentsLabel: 'Mục lục sổ tay',
+    helpOnThisPage: 'Trên trang này',
+    helpTopicMissing: 'Chủ đề này chưa được viết.',
+    helpHitCountOne: '{n} chủ đề',
+    helpHitCount: '{n} chủ đề',
   },
   ja: {
     addFolderRoot: 'フォルダーを追加…',
@@ -1218,6 +1242,7 @@ export const strings = {
     // Sidebar navigation
     navRecent: '最近使用',
     navStarred: 'お気に入り',
+    navUserGuide: 'ユーザーガイド',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Web で Genspark AI を使って作成したプロジェクト。編集はブラウザで続行します。クリックで開きます。',
@@ -1631,6 +1656,13 @@ export const strings = {
     onbBody3: 'ライセンス料なし、広告なし、透かしなし。',
     onbNote3: 'AI 機能は Genspark クレジットを消費する場合があります。',
     onbBack: '戻る',
+    helpSearchPlaceholder: 'マニュアル内を検索…（/ キーでフォーカス）',
+    helpSearchLabel: 'マニュアル内を検索',
+    helpContentsLabel: 'マニュアル目次',
+    helpOnThisPage: 'このページの内容',
+    helpTopicMissing: 'このトピックはまだ書かれていません。',
+    helpHitCountOne: '{n} 件のトピック',
+    helpHitCount: '{n} 件のトピック',
   },
   ko: {
     addFolderRoot: '폴더 추가…',
@@ -1639,6 +1671,7 @@ export const strings = {
     // Sidebar navigation
     navRecent: '최근 사용',
     navStarred: '즐겨찾기',
+    navUserGuide: '사용자 가이드',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Genspark AI로 웹에서 만든 프로젝트입니다. 편집은 브라우저에서 계속됩니다. 프로젝트를 클릭하면 열립니다.',
@@ -2042,6 +2075,13 @@ export const strings = {
     onbBody3: '라이선스 비용 없음, 광고 없음, 워터마크 없음.',
     onbNote3: 'AI 기능은 Genspark 크레딧을 소모할 수 있습니다.',
     onbBack: '이전',
+    helpSearchPlaceholder: '매뉴얼 검색…(/ 키로 포커스)',
+    helpSearchLabel: '매뉴얼 검색',
+    helpContentsLabel: '매뉴얼 목차',
+    helpOnThisPage: '이 페이지의 내용',
+    helpTopicMissing: '이 항목은 아직 작성되지 않았습니다.',
+    helpHitCountOne: '주제 {n}개',
+    helpHitCount: '주제 {n}개',
   },
   fr: {
     addFolderRoot: 'Ajouter un dossier…',
@@ -2050,6 +2090,7 @@ export const strings = {
     // Sidebar navigation
     navRecent: 'Récents',
     navStarred: 'Favoris',
+    navUserGuide: "Guide de l'utilisateur",
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       "Projets créés sur le web avec Genspark AI. L'édition continue dans votre navigateur — cliquez sur un projet pour l'ouvrir.",
@@ -2469,6 +2510,13 @@ export const strings = {
     onbBody3: 'Pas de licence. Pas de publicité. Pas de filigrane.',
     onbNote3: 'Les fonctions IA peuvent consommer des crédits Genspark.',
     onbBack: 'Retour',
+    helpSearchPlaceholder: 'Rechercher dans le manuel… (appuyez sur /)',
+    helpSearchLabel: 'Rechercher dans le manuel',
+    helpContentsLabel: 'Sommaire du manuel',
+    helpOnThisPage: 'Sur cette page',
+    helpTopicMissing: "Cette rubrique n'a pas encore été rédigée.",
+    helpHitCountOne: '{n} rubrique',
+    helpHitCount: '{n} rubriques',
   },
   de: {
     addFolderRoot: 'Ordner hinzufügen…',
@@ -2477,6 +2525,7 @@ export const strings = {
     // Sidebar navigation
     navRecent: 'Zuletzt verwendet',
     navStarred: 'Favoriten',
+    navUserGuide: 'Benutzerhandbuch',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Mit Genspark AI im Web erstellte Projekte. Die Bearbeitung läuft im Browser weiter – klicken Sie auf ein Projekt, um es zu öffnen.',
@@ -2898,6 +2947,13 @@ export const strings = {
     onbBody3: 'Keine Lizenzgebühren. Keine Werbung. Keine Wasserzeichen.',
     onbNote3: 'KI-Funktionen können Genspark-Credits verbrauchen.',
     onbBack: 'Zurück',
+    helpSearchPlaceholder: 'Handbuch durchsuchen… (/) drücken',
+    helpSearchLabel: 'Handbuch durchsuchen',
+    helpContentsLabel: 'Handbuchinhalt',
+    helpOnThisPage: 'Auf dieser Seite',
+    helpTopicMissing: 'Dieser Abschnitt wurde noch nicht geschrieben.',
+    helpHitCountOne: '{n} Abschnitt',
+    helpHitCount: '{n} Abschnitte',
   },
   es: {
     addFolderRoot: 'Añadir carpeta…',
@@ -2906,6 +2962,7 @@ export const strings = {
     // Sidebar navigation
     navRecent: 'Recientes',
     navStarred: 'Destacados',
+    navUserGuide: 'Guía del usuario',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Proyectos creados en la web con Genspark AI. La edición continúa en tu navegador: haz clic en un proyecto para abrirlo.',
@@ -3323,6 +3380,13 @@ export const strings = {
     onbBody3: 'Sin licencias. Sin anuncios. Sin marcas de agua.',
     onbNote3: 'Las funciones de IA pueden consumir créditos de Genspark.',
     onbBack: 'Atrás',
+    helpSearchPlaceholder: 'Buscar en el manual… (pulsa /)',
+    helpSearchLabel: 'Buscar en el manual',
+    helpContentsLabel: 'Contenido del manual',
+    helpOnThisPage: 'En esta página',
+    helpTopicMissing: 'Este tema aún no se ha redactado.',
+    helpHitCountOne: '{n} tema',
+    helpHitCount: '{n} temas',
   },
   th: {
     addFolderRoot: 'เพิ่มโฟลเดอร์…',
@@ -3331,6 +3395,7 @@ export const strings = {
     // Sidebar navigation
     navRecent: 'ล่าสุด',
     navStarred: 'รายการโปรด',
+    navUserGuide: 'คู่มือผู้ใช้',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'โปรเจกต์ที่สร้างบนเว็บด้วย Genspark AI แก้ไขต่อได้ในเบราว์เซอร์ — คลิกโปรเจกต์เพื่อเปิด',
@@ -3731,6 +3796,13 @@ export const strings = {
     onbBody3: 'ไม่มีค่าลิขสิทธิ์ ไม่มีโฆษณา ไม่มีลายน้ำ',
     onbNote3: 'ฟีเจอร์ AI อาจใช้เครดิต Genspark',
     onbBack: 'ย้อนกลับ',
+    helpSearchPlaceholder: 'ค้นหาในคู่มือ… (กด /)',
+    helpSearchLabel: 'ค้นหาในคู่มือ',
+    helpContentsLabel: 'สารบัญคู่มือ',
+    helpOnThisPage: 'ในหน้านี้',
+    helpTopicMissing: 'หัวข้อนี้ยังไม่ได้เขียน',
+    helpHitCountOne: '{n} หัวข้อ',
+    helpHitCount: '{n} หัวข้อ',
   },
   id: {
     addFolderRoot: 'Tambah folder…',
@@ -3739,6 +3811,7 @@ export const strings = {
     // Sidebar navigation
     navRecent: 'Terbaru',
     navStarred: 'Berbintang',
+    navUserGuide: 'Panduan Pengguna',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Proyek yang dibuat di web dengan Genspark AI. Pengeditan berlanjut di browser — klik proyek untuk membukanya.',
@@ -4150,6 +4223,13 @@ export const strings = {
     onbBody3: 'Tanpa biaya lisensi. Tanpa iklan. Tanpa watermark.',
     onbNote3: 'Fitur AI dapat menggunakan kredit Genspark.',
     onbBack: 'Kembali',
+    helpSearchPlaceholder: 'Cari di manual… (tekan /)',
+    helpSearchLabel: 'Cari di manual',
+    helpContentsLabel: 'Isi manual',
+    helpOnThisPage: 'Di halaman ini',
+    helpTopicMissing: 'Topik ini belum ditulis.',
+    helpHitCountOne: '{n} topik',
+    helpHitCount: '{n} topik',
   },
   ru: {
     addFolderRoot: 'Добавить папку…',
@@ -4158,6 +4238,7 @@ export const strings = {
     // Sidebar navigation
     navRecent: 'Недавние',
     navStarred: 'Избранное',
+    navUserGuide: 'Руководство пользователя',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Проекты, созданные в вебе с Genspark AI. Редактирование продолжается в браузере — нажмите на проект, чтобы открыть его.',
@@ -4567,6 +4648,13 @@ export const strings = {
     onbBody3: 'Без лицензий. Без рекламы. Без водяных знаков.',
     onbNote3: 'Функции ИИ могут расходовать кредиты Genspark.',
     onbBack: 'Назад',
+    helpSearchPlaceholder: 'Поиск по руководству… (нажмите /)',
+    helpSearchLabel: 'Поиск по руководству',
+    helpContentsLabel: 'Содержание руководства',
+    helpOnThisPage: 'На этой странице',
+    helpTopicMissing: 'Эта тема ещё не написана.',
+    helpHitCountOne: '{n} тема',
+    helpHitCount: '{n} тем',
   },
   ar: {
     addFolderRoot: 'إضافة مجلد…',
@@ -4575,6 +4663,7 @@ export const strings = {
     // Sidebar navigation
     navRecent: 'الأخيرة',
     navStarred: 'المفضلة',
+    navUserGuide: 'دليل المستخدم',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'مشاريع أُنشئت على الويب باستخدام Genspark AI. يستمر التحرير في المتصفح — انقر على أي مشروع لفتحه.',
@@ -4976,6 +5065,13 @@ export const strings = {
     onbBody3: 'بلا رسوم ترخيص، بلا إعلانات، بلا علامات مائية.',
     onbNote3: 'قد تستهلك ميزات الذكاء الاصطناعي أرصدة Genspark.',
     onbBack: 'رجوع',
+    helpSearchPlaceholder: 'البحث في الدليل… (اضغط /)',
+    helpSearchLabel: 'البحث في الدليل',
+    helpContentsLabel: 'فهرس الدليل',
+    helpOnThisPage: 'في هذه الصفحة',
+    helpTopicMissing: 'لم تُكتب هذه الصفحة بعد.',
+    helpHitCountOne: '{n} موضوع',
+    helpHitCount: '{n} مواضيع',
   },
   pt: {
     addFolderRoot: 'Adicionar pasta…',
@@ -4983,6 +5079,7 @@ export const strings = {
     rootUnavailable: 'Indisponível',
     navRecent: 'Recentes',
     navStarred: 'Favoritos',
+    navUserGuide: 'Guia do Usuário',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Projetos criados na web com o Genspark AI. A edição continua no navegador — clique em um projeto para abri-lo.',
@@ -5390,6 +5487,13 @@ export const strings = {
     onbBody3: "Sem licenças. Sem anúncios. Sem marcas d'água.",
     onbNote3: 'Os recursos de IA podem consumir créditos Genspark.',
     onbBack: 'Voltar',
+    helpSearchPlaceholder: 'Pesquisar no manual… (pressione /)',
+    helpSearchLabel: 'Pesquisar no manual',
+    helpContentsLabel: 'Conteúdo do manual',
+    helpOnThisPage: 'Nesta página',
+    helpTopicMissing: 'Este tópico ainda não foi escrito.',
+    helpHitCountOne: '{n} tópico',
+    helpHitCount: '{n} tópicos',
   },
   it: {
     addFolderRoot: 'Aggiungi cartella…',
@@ -5397,6 +5501,7 @@ export const strings = {
     rootUnavailable: 'Non disponibile',
     navRecent: 'Recenti',
     navStarred: 'Preferiti',
+    navUserGuide: "Guida dell'utente",
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Progetti creati sul web con Genspark AI. La modifica continua nel browser: fai clic su un progetto per aprirlo.',
@@ -5803,6 +5908,13 @@ export const strings = {
     onbBody3: 'Nessuna licenza. Nessuna pubblicità. Nessuna filigrana.',
     onbNote3: 'Le funzioni IA possono consumare crediti Genspark.',
     onbBack: 'Indietro',
+    helpSearchPlaceholder: 'Cerca nel manuale… (premi /)',
+    helpSearchLabel: 'Cerca nel manuale',
+    helpContentsLabel: 'Indice del manuale',
+    helpOnThisPage: 'In questa pagina',
+    helpTopicMissing: 'Questo argomento non è ancora stato scritto.',
+    helpHitCountOne: '{n} argomento',
+    helpHitCount: '{n} argomenti',
   },
   pl: {
     addFolderRoot: 'Dodaj folder…',
@@ -5810,6 +5922,7 @@ export const strings = {
     rootUnavailable: 'Niedostępny',
     navRecent: 'Ostatnie',
     navStarred: 'Ulubione',
+    navUserGuide: 'Podręcznik użytkownika',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Projekty utworzone w sieci za pomocą Genspark AI. Edycja jest kontynuowana w przeglądarce — kliknij projekt, aby go otworzyć.',
@@ -6211,6 +6324,13 @@ export const strings = {
     onbBody3: 'Bez opłat licencyjnych. Bez reklam. Bez znaków wodnych.',
     onbNote3: 'Funkcje AI mogą zużywać kredyty Genspark.',
     onbBack: 'Wstecz',
+    helpSearchPlaceholder: 'Szukaj w podręczniku… (naciśnij /)',
+    helpSearchLabel: 'Szukaj w podręczniku',
+    helpContentsLabel: 'Spis podręcznika',
+    helpOnThisPage: 'Na tej stronie',
+    helpTopicMissing: 'Ten temat nie został jeszcze napisany.',
+    helpHitCountOne: '{n} temat',
+    helpHitCount: '{n} tematów',
   },
   cs: {
     addFolderRoot: 'Přidat složku…',
@@ -6218,6 +6338,7 @@ export const strings = {
     rootUnavailable: 'Nedostupné',
     navRecent: 'Nedávné',
     navStarred: 'Oblíbené',
+    navUserGuide: 'Uživatelská příručka',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Projekty vytvořené na webu pomocí Genspark AI. Úpravy pokračují v prohlížeči — klikněte na projekt a otevřete ho.',
@@ -6619,6 +6740,13 @@ export const strings = {
     setAiOpenInNewDocs: 'Otevírat panel AI v nových dokumentech',
     setAiOpenInNewDocsDesc:
       'Když je vypnuto, nově otevřené dokumenty začínají se sbaleným panelem AI; v případě potřeby stačí jedno kliknutí.',
+    helpSearchPlaceholder: 'Hledat v příručce… (stiskněte /)',
+    helpSearchLabel: 'Hledat v příručce',
+    helpContentsLabel: 'Obsah příručky',
+    helpOnThisPage: 'Na této stránce',
+    helpTopicMissing: 'Toto téma ještě nebylo napsáno.',
+    helpHitCountOne: '{n} téma',
+    helpHitCount: '{n} témat',
   },
   nl: {
     addFolderRoot: 'Map toevoegen…',
@@ -6626,6 +6754,7 @@ export const strings = {
     rootUnavailable: 'Niet beschikbaar',
     navRecent: 'Recent',
     navStarred: 'Favorieten',
+    navUserGuide: 'Gebruikershandleiding',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Projecten gemaakt op het web met Genspark AI. Bewerken gaat verder in je browser — klik op een project om het te openen.',
@@ -7030,6 +7159,13 @@ export const strings = {
     onbBody3: 'Geen licentiekosten. Geen advertenties. Geen watermerken.',
     onbNote3: 'AI-functies kunnen Genspark-credits verbruiken.',
     onbBack: 'Terug',
+    helpSearchPlaceholder: 'Zoek in de handleiding… (druk op /)',
+    helpSearchLabel: 'Zoek in de handleiding',
+    helpContentsLabel: 'Inhoud van de handleiding',
+    helpOnThisPage: 'Op deze pagina',
+    helpTopicMissing: 'Dit onderwerp is nog niet geschreven.',
+    helpHitCountOne: '{n} onderwerp',
+    helpHitCount: '{n} onderwerpen',
   },
   ms: {
     addFolderRoot: 'Tambah folder…',
@@ -7037,6 +7173,7 @@ export const strings = {
     rootUnavailable: 'Tidak tersedia',
     navRecent: 'Terkini',
     navStarred: 'Berbintang',
+    navUserGuide: 'Panduan Pengguna',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Projek yang dicipta di web dengan Genspark AI. Penyuntingan diteruskan dalam pelayar — klik projek untuk membukanya.',
@@ -7444,6 +7581,13 @@ export const strings = {
     onbBody3: 'Tiada yuran lesen. Tiada iklan. Tiada tera air.',
     onbNote3: 'Ciri AI mungkin menggunakan kredit Genspark.',
     onbBack: 'Kembali',
+    helpSearchPlaceholder: 'Cari dalam manual… (tekan /)',
+    helpSearchLabel: 'Cari dalam manual',
+    helpContentsLabel: 'Kandungan manual',
+    helpOnThisPage: 'Pada halaman ini',
+    helpTopicMissing: 'Topik ini belum ditulis.',
+    helpHitCountOne: '{n} topik',
+    helpHitCount: '{n} topik',
   },
   he: {
     addFolderRoot: 'הוספת תיקייה…',
@@ -7451,6 +7595,7 @@ export const strings = {
     rootUnavailable: 'לא זמין',
     navRecent: 'אחרונים',
     navStarred: 'מועדפים',
+    navUserGuide: 'מדריך למשתמש',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'פרויקטים שנוצרו באינטרנט עם Genspark AI. העריכה נמשכת בדפדפן — לחצו על פרויקט כדי לפתוח אותו.',
@@ -7840,6 +7985,13 @@ export const strings = {
     onbBody3: 'ללא דמי רישיון, ללא פרסומות, ללא סימני מים.',
     onbNote3: 'תכונות AI עשויות לצרוך קרדיטים של Genspark.',
     onbBack: 'חזרה',
+    helpSearchPlaceholder: 'חיפוש במדריך… (הקש /)',
+    helpSearchLabel: 'חיפוש במדריך',
+    helpContentsLabel: 'תוכן המדריך',
+    helpOnThisPage: 'בעמוד זה',
+    helpTopicMissing: 'נושא זה עדיין לא נכתב.',
+    helpHitCountOne: '{n} נושא',
+    helpHitCount: '{n} נושאים',
   },
   hi: {
     addFolderRoot: 'फ़ोल्डर जोड़ें…',
@@ -7847,6 +7999,7 @@ export const strings = {
     rootUnavailable: 'उपलब्ध नहीं',
     navRecent: 'हाल के',
     navStarred: 'तारांकित',
+    navUserGuide: 'उपयोगकर्ता गाइड',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
       'Genspark AI के साथ वेब पर बनाए गए प्रोजेक्ट। संपादन ब्राउज़र में जारी रहता है — खोलने के लिए किसी प्रोजेक्ट पर क्लिक करें।',
@@ -8248,6 +8401,13 @@ export const strings = {
     onbBody3: 'कोई लाइसेंस शुल्क नहीं। कोई विज्ञापन नहीं। कोई वॉटरमार्क नहीं।',
     onbNote3: 'AI सुविधाएँ Genspark क्रेडिट खर्च कर सकती हैं।',
     onbBack: 'वापस',
+    helpSearchPlaceholder: 'मैनुअल में खोजें… (/) दबाएँ',
+    helpSearchLabel: 'मैनुअल में खोजें',
+    helpContentsLabel: 'मैनुअल की सामग्री',
+    helpOnThisPage: 'इस पृष्ठ पर',
+    helpTopicMissing: 'यह विषय अभी तक लिखा नहीं गया है।',
+    helpHitCountOne: '{n} विषय',
+    helpHitCount: '{n} विषय',
   },
   'zh-TW': {
     addFolderRoot: '加入資料夾…',
@@ -8255,6 +8415,7 @@ export const strings = {
     rootUnavailable: '無法使用',
     navRecent: '最近',
     navStarred: '收藏',
+    navUserGuide: '使用手冊',
     navCloud: 'Genspark Projects',
     cloudSubtitle: '在網頁端用 Genspark AI 建立的專案。編輯在瀏覽器中繼續——點擊任意專案即可開啟。',
     cloudSearchPlaceholder: '搜尋 {n} 個專案…',
@@ -8637,5 +8798,12 @@ export const strings = {
     onbBody3: '無授權費用，無廣告，無浮水印。',
     onbNote3: 'AI 功能可能消耗 Genspark 點數。',
     onbBack: '上一步',
+    helpSearchPlaceholder: '搜尋手冊…（按 / 聚焦）',
+    helpSearchLabel: '搜尋手冊',
+    helpContentsLabel: '手冊目錄',
+    helpOnThisPage: '本頁目錄',
+    helpTopicMissing: '本主題的內容尚未編寫。',
+    helpHitCountOne: '{n} 個主題',
+    helpHitCount: '{n} 個主題',
   },
 } as const
